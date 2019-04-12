@@ -1,3 +1,39 @@
+
+
+## Looking At
+
+### Looking At Entity
+
+### Looking at Block
+
+
+
+
+
+## Sneaking
+
+
+
+## Health
+
+## Hearts
+
+
+# Dimensions:
+Dimensions is a Requirement introduced by CompatSkills and allows you to gate things behind either:
+- Being in a **Specific** dimension.
+- Being in **any** dimension **other than** the one specified.
+```
+Example:
+dim|integer
+
+Working Example:
+dim|0
+```
+
+
+
+
 # Items:
 Items is a Requirement-Type introduced by CompatSkills and allows you to gate things behind holding a specific Item/NBT-Value/Mod-Item in either your Main or Off-Hand.
 The Item Syntax is as follows:
@@ -39,4 +75,32 @@ stack|tconstruct|{ench:[{id: 35s}]}
 
 stack|minecraft:iron_sword|{ench:[{id: 17s}]}
 stack|minecraft:iron_sword:*|{ench:[{id: 17s}]}
+```
+
+
+# Tool Harvest-Level
+This requires the player to be holding an itemTool whose harvest level is equal or higher than the level specified.
+
+```
+Example:
+harvest|integer
+
+Working Example:
+harvest|1
+harvest|2
+harvest|3
+```
+
+
+# Ore Dictionary
+Ore Dictionary Requirements are fairly new and requires the player to be holding either in their main-hand or in their off-hand an item with the matching ore-dictionary value.
+
+```
+Example:
+ore|string
+
+Working Example:
+ore|nuggetIron
+ore|ingotIron
+ore|oreIron
 ```
