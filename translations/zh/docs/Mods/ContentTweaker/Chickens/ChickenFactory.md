@@ -1,27 +1,27 @@
-# ChickenFactory
+# 小鸡工坊（ChickenFactory）
 
-The ChickenFactory allows you to create custom [Chickens](/Mods/ContentTweaker/Chickens/ChickenRepresentation/) to the game.  
-Note that this module is a feature addition to the [Chickens mod by setycz](https://minecraft.curseforge.com/projects/chickens), so this module is only available if that mod is loaded.
+小鸡工坊允许你往游戏中添加自定义的[鸡](/Mods/ContentTweaker/Chickens/ChickenRepresentation/)。  
+注：这个模块是[setycz编写的chickens](https://minecraft.curseforge.com/projects/chickens)模组的功能，因而使用此功能需要加载了这个模组。
 
-## Importing the package
+## 导入相关包
 
     import mods.contenttweaker.ChickenFactory;
     
 
-## Creating chickens
+## 创建鸡
 
-First of all, you will need to create a [Chicken Representation](/Mods/ContentTweaker/Chickens/ChickenRepresentation/).  
-This is essentially an empty template of what your chicken will become.  
-This method returns such a [Chicken Representation](/Mods/ContentTweaker/Chickens/ChickenRepresentation/) object, by taking the following parameters:
+首先，你需要创建一个[小鸡表示法](/Mods/ContentTweaker/Chickens/ChickenRepresentation/)。  
+它本质上是一个小鸡的模板。  
+此方法会使用下方罗列的参数，返回[小鸡表示法](/Mods/ContentTweaker/Chickens/ChickenRepresentation/)对象：
 
-- String name: the entity name of the chicken, used for models and the entity registry.
-- [CTColor](/Mods/ContentTweaker/Vanilla/Types/Color/Color/) color: The color, the chicken will have.
-- [IItemStack](/Vanilla/Items/IItemStack/) layedItem: The item the chicken will lay later on.
+- String 名称：鸡的实体名称，用于模型和实体注册。
+- [CTColor](/Mods/ContentTweaker/Vanilla/Types/Color/Color/) 颜色：鸡的颜色。
+- [IItemestack](/Vanilla/Items/IItemStack/) 生下的物品：鸡会生下的物品。
 
     ChickenFactory.createChicken(String name, CTColor color, IItemStack item);
     
 
-## Example Script
+## 示例脚本
 
     #loader contenttweaker
     #modloaded chickens

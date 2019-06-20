@@ -22,4 +22,4 @@
 
 ## 下一步该做什么
 
-现在，你已成功地将 Crafttweaker-Documentation 仓库复制到您自己的 github 帐户，你可以 [使用在线编辑器 ](/Contribute/OnlineEditor_Edit) 或复制到您的计算机并在本地进行编辑。
+现在，你已成功地将 Crafttweaker-Documentation 仓库复制到您自己的 GitHub 帐户。接着你就可以 [使用在线编辑器 ](/Contribute/OnlineEditor_Edit/) 或[复制到您的计算机](/Contribute/LocalClone/Clone/)并在本地进行编辑。

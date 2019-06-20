@@ -2,10 +2,10 @@
 
 ## 信息
 
-[VanillaDeathChest](https://minecraft.curseforge.com/projects/vanilladeathchest) places chests (or shulker boxes) where players die containing all of their items.VanillaDeathChest is completely server-sided; it can be installed on the client for use on singleplayer worlds, but clients without this mod can connect to servers with this mod installed without losing functionality.
+[原版死亡箱子](https://minecraft.curseforge.com/projects/vanilladeathchest) 在玩家死亡的位置放置一个包含了生前所有物品的箱子（或潜影盒）。原版死亡箱子只需要装在服务器端；也可以装在客户端供单机游玩，但是没装这个Mod的玩家也可以连到装有这个Mod的服务器上，并且死亡箱功能依然存在。
 
-VanillaDeathChest can be paired with [Game Stages](https://minecraft.curseforge.com/projects/game-stages) and CraftTweaker to make accessing death chests more difficult for players as they progress.
+原版死亡箱子可以配合 [游戏阶段](https://minecraft.curseforge.com/projects/game-stages) 和 CraftTweaker 来让死亡箱的使用随着玩家发展越来越困难。
 
-If any properties are not set via CraftTweaker, the values set in the global configuration are used. Game stages should be defined in order. Calling any of the VanillaDeathChest functions causes the specified stage to be defined if it has not been already.
+如果有属性没用CraftTweaker设置的话，将会使用全局配置中的设置。 游戏阶段要按顺序定义 调用任何原版死亡箱子函数，如果还未定义指定阶段的话，将自动定义此阶段。
 
-Any messages that take arguments, such as the unlock failed chat message, follow [this](https://dzone.com/articles/java-string-format-examples) format. For example, `%2$s` refers to the second argument.
+任何带参数的消息，比如解锁失败的聊天信息，用 [这个](https://dzone.com/articles/java-string-format-examples) 格式。 比如，`%2$s` 指第二个参数。
